@@ -1,3 +1,4 @@
+logstash/config/logstash.conf
 logstash/incoming_logs/* 
 elasticsearch/data/*
 elasticsearch/logs/*

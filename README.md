@@ -9,5 +9,5 @@ To use it:
 - send your logs on the "logstash/incoming_logs/" directory
 - open your browser and point it to "http://localhost:5601/" to visualize your data and build horrible dashboards
 
-Cleaning commands:
+Cleaning commands (if you want to restart all from the beginning):
 - run: [sudo] docker rm -f elk5_kibana_1 elk5_elasticsearch_1 elk5_logstash_1 && [sudo] rm -rf logstash/incoming_logs/* elasticsearch/data/* elasticsearch/logs/* 
