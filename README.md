@@ -1,6 +1,10 @@
 # docker-elk5
 for testing elk5 quickly with docker
 
+Require:
+- docker : https://docs.docker.com/engine/installation/
+- docker-compose : can be installed following this link: https://docs.docker.com/compose/install/
+
 To use it:
 
 - Clone this repo
