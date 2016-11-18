@@ -19,7 +19,7 @@ for testing elk5 quickly with docker
 ##Troubleshooting:
 - In dev machines, you may have this error message from elaticsearch:
 
-"
+```
 elasticsearch_1  | ERROR: bootstrap checks failed
 
 
@@ -32,7 +32,7 @@ elasticsearch_1  | max virtual memory areas vm.max_map_count [65530] likely too 
 dockerelk5_elasticsearch_1 exited with code 78
 
 
-"
+```
 
 
 On your real host, just launch the following commadn to fix it:
