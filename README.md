@@ -15,3 +15,14 @@ To use it:
 
 Cleaning commands (if you want to restart all from the beginning):
 - run: [sudo] docker rm -f dockerelk5_kibana_1 dockerelk5_elasticsearch_1 dockerelk5_logstash_1 && [sudo] rm -rf logstash/incoming_logs/* elasticsearch/data/* elasticsearch/logs/* 
+
+Troubleshooting:
+- In dev machines, you may have this error message from elaticsearch:
+"
+elasticsearch_1  | ERROR: bootstrap checks failed
+elasticsearch_1  | max virtual memory areas vm.max_map_count [65530] likely too low, increase to at least [262144]
+...
+dockerelk5_elasticsearch_1 exited with code 78
+"
+On your real host, just launch the following commadn to fix it:
+"sudo sysctl -w vm.max_map_count=262144"
