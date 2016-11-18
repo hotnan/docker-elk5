@@ -47,6 +47,9 @@ RUN set -ex \
 
 #RUN sysctl -w vm.max_map_count=262144
 
+# install X-pack
+RUN cd /usr/share/elasticsearch/ && bin/elasticsearch-plugin install x-pack
+
 VOLUME /usr/share/elasticsearch/data
 
 COPY docker-entrypoint.sh /
