@@ -39,3 +39,14 @@ On your real host, just launch the following commadn to fix it:
 sudo sysctl -w vm.max_map_count=262144
 ```
 
+##Useful commands:
+- Change default credentials (on the elasticsearch machine):
+
+```
+curl --user elastic:changeme -XPUT 'http://localhost:9200/_xpack/security/user/elastic/_password' -d'{"password" : "p4ssword"}'
+```
+- Add a new user by CLI (on the elasticsearch machine):
+
+```
+curl --user elastic:changeme -XPOST 'http://localhost:9200/_xpack/security/user/admin' -d'{"password" : "p4ssword", "roles" : [ "admin", "superuser" ],"full_name" : "admin","enabled": true }'
+```
