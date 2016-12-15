@@ -2,7 +2,7 @@
 for testing elk5 quickly with docker
 
 <p align="center">
-  <img src="https://balladelli.com/wp-content/uploads/2016/10/Kibana5.0.png" width="350"/>
+  <img src="https://balladelli.com/wp-content/uploads/2016/10/Kibana5.0.png" width="700"/>
 </p>
 
 ##Require:
