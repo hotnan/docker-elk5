@@ -1,6 +1,10 @@
 # docker-elk5
 for testing elk5 quickly with docker
 
+<p align="center">
+  <img src="https://balladelli.com/wp-content/uploads/2016/10/Kibana5.0.png" width="350"/>
+</p>
+
 ##Require:
 - git (sudo apt-get install git)
 - docker : https://docs.docker.com/engine/installation/
