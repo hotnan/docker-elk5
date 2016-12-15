@@ -10,6 +10,10 @@ for testing elk5 quickly with docker
 - docker : https://docs.docker.com/engine/installation/
 - docker-compose : can be installed following this link: https://docs.docker.com/compose/install/
 
+<p align="center">
+  <img src="http://blogs.arondor.com/wp-content/uploads/2016/05/ELK-stack_imagelarge.png" width="700"/>
+</p>
+
 ##To use it:
 
 - Clone this repo (git clone git@github.com:jgovi/docker-elk5.git)
@@ -20,6 +24,10 @@ for testing elk5 quickly with docker
 ```
 - send your logs on the "logstash/incoming_logs/" directory
 - open your browser and point it to "http://localhost:5601/" **(user: elastic, password: changeme)** to visualize your data and build horrible dashboards
+
+<p align="center">
+  <img src="http://cdn.dev.classmethod.jp/wp-content/uploads/2016/02/Discover_-_Kibana1.png" width="700"/>
+</p>
 
 ##Cleaning commands (if you want to restart all from the beginning):
 - run: 
